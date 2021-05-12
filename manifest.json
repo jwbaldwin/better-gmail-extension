@@ -1,0 +1,22 @@
+{
+  "description": "Adds styling to gmail to organize the inbox",
+  "manifest_version": 2,
+  "name": "apply-css",
+  "version": "1.0",
+  "homepage_url": "https://github.com/jwbaldwin/better-gmail-extension",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icons/off.svg",
+    "browser_style": true
+  },
+  
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+
+}
